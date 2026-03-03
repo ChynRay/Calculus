@@ -1,8 +1,9 @@
 # 第3章 导数与微分
 ## 3.1 导数的概念
-1、设 $f(x)$ 满足 $f(0)=0$，且 $f^{'}(0)$ 存在，则 $\displaystyle \lim_{x \to 0} \frac{f(1-\sqrt{\cos x})}{\ln (1 - x \sin x)} =$ _____.
+1、设 $f(x)$ 满足 $f(0)=0$，且 $f^{'}(0)$ 存在，则 $\displaystyle \lim_{x \to 0} \frac{f(1-\sqrt{\cos x})}{\ln (1 - x \sin x)} =$ _____.  
+
 解：
-原式 $= \displaystyle \lim_{x \to 0} \frac{f(1-\sqrt{\cos x}) - f(0)}{(1-\sqrt{\cos x}) - 0} \cdot \displaystyle \lim_{x \to 0} \frac{1-\sqrt{\cos x}}{\ln (1 - x \sin x)} = f^{'}(0) \cdot \displaystyle \lim_{x \to 0} \frac{1-\sqrt{\cos x}}{\ln (1 - x \sin x)} = -\frac{1}{4} f^{'}(0)$   
+原式 $=\displaystyle \lim_{x \to 0} \frac{f(1-\sqrt{\cos x}) - f(0)}{(1-\sqrt{\cos x}) - 0} \cdot \displaystyle \lim_{x \to 0} \frac{1-\sqrt{\cos x}}{\ln (1 - x \sin x)} = f^{'}(0) \cdot \displaystyle \lim_{x \to 0} \frac{1-\sqrt{\cos x}}{\ln (1 - x \sin x)} = -\frac{1}{4} f^{'}(0)$   
 
 ## 3.2 导数的四则运算与反函数的导数
 ### 一、导数的四则运算
